@@ -1,15 +1,15 @@
 package com.hyy.pattern.factory.abstractfactory;
 
-
 /**
  * DESC:
  * <p>
- * create by hyy on 2019/3/8 15:49
+ * create by hyy on 2019/3/11 15:29
  **/
 public class Test {
     public static void main(String[] args) {
-        StudyFactory factory = new StudyFactory();
-        factory.studyPattern().study();
-        factory.studySpring().study();
+        ICourseFactory factory = new JavaCourseFactory();
+        factory.createCourse();
+        factory.createNote();
+        factory.createVideo();
     }
 }
