@@ -8,8 +8,8 @@ package com.hyy.pattern.factory.factorymethod;
 public class Test {
     public static void main(String[] args) {
         IPlanFactory factory = new StudyPlanFactory();
-        factory.doSomething().doSomething();
+        factory.creat().doSomething();
         factory = new TrainPlanFactory();
-        factory.doSomething().doSomething();
+        factory.creat().doSomething();
     }
 }

@@ -10,7 +10,7 @@ import com.hyy.pattern.factory.StudyPlan;
  **/
 public class StudyPlanFactory implements IPlanFactory {
     @Override
-    public IPlan doSomething() {
+    public IPlan creat() {
         return new StudyPlan();
     }
 }

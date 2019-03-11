@@ -8,5 +8,5 @@ import com.hyy.pattern.factory.IPlan;
  * create by hyy on 2019/3/8 15:34
  **/
 public interface IPlanFactory {
-    public IPlan doSomething();
+    public IPlan creat();
 }
